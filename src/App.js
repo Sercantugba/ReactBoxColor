@@ -15,7 +15,20 @@ class App extends React.Component {
     let currentNum = this.state.numberOfTimesClicked;
     this.setState({ numberOfTimesClicked: this.state.numberOfTimesClicked + 1 });
 
-    
+
+    function toggleColor() {
+      if(currentNum % 2 == 0) {
+        document.getElementsByClassName('boxcolor')[0].style.backgroundColor = "green";
+      }else{
+        document.getElementsByClassName('boxcolor')[0].style.backgroundColor = "blue";
+      }
+    }
+    toggleColor();
+
+
+  }
+  render() {
+    return
   }
 }
 
