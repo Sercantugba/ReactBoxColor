@@ -28,7 +28,13 @@ class App extends React.Component {
 
   }
   render() {
-    return
+    return(
+      <div className="App">
+        <h1>Number of Times You Clicked: {this.state.numberOfTimesClicked }</h1>
+        <div className="boxcolor" onClick={ this.incrementClicks}></div>
+
+      </div>
+    )
   }
 }
 
