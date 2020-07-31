@@ -1,1 +1,13 @@
+.App {
+  margin: auto;
+  font-style: oblique;
+  color: rebeccapurple;
+}
 
+.boxcolor {
+  margin: 30px;
+  border: solid 1px blue;
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+}
