@@ -14,7 +14,7 @@ class App extends React.Component {
     e.preventDefault();
     let currentNum = this.state.numberOfTimesClicked;
     this.setState({ numberOfTimesClicked: this.state.numberOfTimesClicked + 1 });
-
+    // try to put reset function to reset numberoftimesclicked
 
     function toggleColor() {
       if(currentNum % 2 == 0) {
