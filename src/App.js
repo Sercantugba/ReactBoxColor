@@ -4,7 +4,7 @@ import './App.css';
 class App extends React.Component {
   constructor(props) {
     super(props);
-
+    // Set a state (hint: color & clickCounter)
     this.state = {
       numberOfTimesClicked: 0
     }
