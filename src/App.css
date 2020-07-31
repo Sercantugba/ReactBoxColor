@@ -2,6 +2,7 @@
   margin: auto;
   font-style: oblique;
   color: rebeccapurple;
+ 
 }
 
 .boxcolor {
@@ -10,4 +11,8 @@
   width: 250px;
   height: 250px;
   background-color: blue;
+}
+
+body {
+  background-image: url("https://blog.prezi.com/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg");
 }
